@@ -16,6 +16,51 @@ a{text-decoration:none;color:#222}
     background:#ffffff;
 }
 
+.about{
+    padding:100px 8%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.about-box{
+    max-width:900px;
+    text-align:center;
+    padding:50px;
+    border-radius:25px;
+    background:linear-gradient(
+        135deg,
+        #6a11cb,
+        #2575fc,
+        #00c9ff,
+        #92fe9d
+    );
+    color:white;
+    box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+.about-box h2{
+    font-size:48px;
+    margin-bottom:25px;
+}
+
+.about-box p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+.highlight{
+    color:#ffe600;
+    font-weight:700;
+    font-size:22px;
+}
+
+.about-box:hover{
+    transform:translateY(-5px);
+    transition:0.4s ease;
+}
+
 .skills h2{
     text-align:center;
     font-size:42px;
