@@ -135,5 +135,24 @@
 
 </div>
 
+<script>
+function openPopup(){
+    document.getElementById("messagePopup").style.display = "flex";
+}
+
+function closePopup(){
+    document.getElementById("messagePopup").style.display = "none";
+}
+
+window.onclick = function(event){
+    let popup = document.getElementById("messagePopup");
+
+    if(event.target == popup){
+        popup.style.display = "none";
+    }
+}
+</script>
+
+
 </body>
 </html>
